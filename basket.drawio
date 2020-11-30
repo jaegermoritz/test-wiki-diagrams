@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T09:58:33.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="-R_S7D4AbCcZ93XJL7wn" version="13.10.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-30T11:56:01.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="fp-Q_HRnhn2Y0rSTsg8o" version="13.10.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basket">
     <mxGraphModel dx="720" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="trSnWFVF8pbwc7AmH88S" name="Customer Data">
-    <mxGraphModel dx="720" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1331" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EQ7L1SsvrP8WP7ACM2IL-0" />
         <mxCell id="EQ7L1SsvrP8WP7ACM2IL-1" parent="EQ7L1SsvrP8WP7ACM2IL-0" />
@@ -115,13 +115,13 @@
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-52" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-7" target="6Jnc7gjSLt8j2CblsMqR-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="1090" />
-              <mxPoint x="410" y="775" />
+              <mxPoint x="320" y="1389" />
+              <mxPoint x="320" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-7" value="Are all fields for the billing address filled out correctly?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="431.5" y="1030" width="129.23" height="120" as="geometry" />
+          <mxGeometry x="431.5" y="1329" width="129.23" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-24" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-8" target="6Jnc7gjSLt8j2CblsMqR-23">
           <mxGeometry relative="1" as="geometry" />
@@ -130,10 +130,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-8" value="Is separate Delivery Address selected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="446.12" y="870" width="100" height="100" as="geometry" />
+          <mxGeometry x="446.12" y="1169" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-10" value="Go to Summary Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="520" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1619" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-11" target="6Jnc7gjSLt8j2CblsMqR-48">
           <mxGeometry relative="1" as="geometry" />
@@ -154,7 +154,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-23" value="Show and fill out delivery address form (with validation hint)" style="whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="600" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="1189" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-26" target="6Jnc7gjSLt8j2CblsMqR-28">
           <mxGeometry relative="1" as="geometry" />
@@ -163,7 +163,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-26" value="Are all Fields for the delivery address filled out correctly?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="597.31" y="1030" width="125.38" height="120" as="geometry" />
+          <mxGeometry x="597.31" y="1329" width="125.38" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-28" target="6Jnc7gjSLt8j2CblsMqR-10">
           <mxGeometry relative="1" as="geometry" />
@@ -171,13 +171,13 @@
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-55" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-28" target="6Jnc7gjSLt8j2CblsMqR-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="1230" />
-              <mxPoint x="390" y="775" />
+              <mxPoint x="300" y="1529" />
+              <mxPoint x="300" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-28" value="Is the whole Form filled out correctly?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
-          <mxGeometry x="540" y="1190" width="80" height="80" as="geometry" />
+          <mxGeometry x="540" y="1489" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-14" target="6Jnc7gjSLt8j2CblsMqR-48">
           <mxGeometry relative="1" as="geometry" />
@@ -196,17 +196,43 @@
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-40" value="Add firstname / lastname or club card number ( with validation hint)" style="whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
           <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Jnc7gjSLt8j2CblsMqR-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-48" target="6Jnc7gjSLt8j2CblsMqR-8">
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="6Jnc7gjSLt8j2CblsMqR-48" target="fY64I-QM4_L4IA6TYFsa-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Jnc7gjSLt8j2CblsMqR-48" value="Fill billing address form data" style="whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
           <mxGeometry x="436.12" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="fY64I-QM4_L4IA6TYFsa-0" target="fY64I-QM4_L4IA6TYFsa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-7" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="fY64I-QM4_L4IA6TYFsa-0" target="6Jnc7gjSLt8j2CblsMqR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="890" />
+              <mxPoint x="410" y="1219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-0" value="Is FSK18 product in basket?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
+          <mxGeometry x="456.12" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-4" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="fY64I-QM4_L4IA6TYFsa-1" target="6Jnc7gjSLt8j2CblsMqR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-6" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=8;" edge="1" parent="EQ7L1SsvrP8WP7ACM2IL-1" source="fY64I-QM4_L4IA6TYFsa-1" target="fY64I-QM4_L4IA6TYFsa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-1" value="Is customer &amp;gt;= 18?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
+          <mxGeometry x="456.12" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fY64I-QM4_L4IA6TYFsa-5" value="Info to remove FSK18 article from basket" style="whiteSpace=wrap;html=1;" vertex="1" parent="EQ7L1SsvrP8WP7ACM2IL-1">
+          <mxGeometry x="596.12" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="zDP7-P0GXhH1TUjTjWVj" name="Summary">
-    <mxGraphModel dx="720" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kGC4bLtBF5b_1Yb7k8IJ-0" />
         <mxCell id="kGC4bLtBF5b_1Yb7k8IJ-1" parent="kGC4bLtBF5b_1Yb7k8IJ-0" />
