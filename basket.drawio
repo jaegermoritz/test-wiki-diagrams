@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T12:50:48.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ox-UwIlRW6AXxdRoB19G" version="13.10.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-30T12:53:42.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="T7RagabiyuiwYsTUuNw9" version="13.10.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basket">
     <mxGraphModel dx="720" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -389,10 +389,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gMwHEZhM2v5hep1JGxDU" name="Success">
-    <mxGraphModel dx="720" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1317" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="w8eNsi_a_poVVcEDthYe-0" />
         <mxCell id="w8eNsi_a_poVVcEDthYe-1" parent="w8eNsi_a_poVVcEDthYe-0" />
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="w8eNsi_a_poVVcEDthYe-1" source="6bEj5e2JVgyQJv7uFVcL-0" target="6bEj5e2JVgyQJv7uFVcL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-0" value="Success Page" style="whiteSpace=wrap;html=1;" vertex="1" parent="w8eNsi_a_poVVcEDthYe-1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-3" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="w8eNsi_a_poVVcEDthYe-1" source="6bEj5e2JVgyQJv7uFVcL-1" target="6bEj5e2JVgyQJv7uFVcL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-5" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=0;endSize=8;" edge="1" parent="w8eNsi_a_poVVcEDthYe-1" source="6bEj5e2JVgyQJv7uFVcL-1" target="6bEj5e2JVgyQJv7uFVcL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-1" value="Are Products left in the store basket?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="w8eNsi_a_poVVcEDthYe-1">
+          <mxGeometry x="340" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-2" value="Link to store basket." style="whiteSpace=wrap;html=1;" vertex="1" parent="w8eNsi_a_poVVcEDthYe-1">
+          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6bEj5e2JVgyQJv7uFVcL-4" value="Link to homepage" style="whiteSpace=wrap;html=1;" vertex="1" parent="w8eNsi_a_poVVcEDthYe-1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
