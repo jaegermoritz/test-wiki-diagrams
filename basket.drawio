@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T15:29:51.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="1WVWZ7GopU5v7vEk8VhX" version="13.10.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-01T15:51:49.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="T4Uj1DRjjudNlrd2o3xN" version="13.10.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basket">
     <mxGraphModel dx="720" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -386,6 +386,121 @@
         </mxCell>
         <mxCell id="PIgWFzonyBLeTYvz0EIL-63" value="Option to go back to customer data page" style="whiteSpace=wrap;html=1;" parent="kGC4bLtBF5b_1Yb7k8IJ-1" vertex="1">
           <mxGeometry x="440" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k0RpPtIgEGjwjS-fCftN" name="Finalize-Checkout">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-0" />
+        <mxCell id="FOyr9okT2E-jsis5YIGN-1" parent="FOyr9okT2E-jsis5YIGN-0" />
+        <mxCell id="FOyr9okT2E-jsis5YIGN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-2" target="FOyr9okT2E-jsis5YIGN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-2" value="finalize checkout button clicked" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="189" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-3" target="FOyr9okT2E-jsis5YIGN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-3" value="Printer Modal opened" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="189" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-5" target="FOyr9okT2E-jsis5YIGN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-5" value="Printer-ID selected" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="189" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-12" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-7" target="FOyr9okT2E-jsis5YIGN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-7" target="FOyr9okT2E-jsis5YIGN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-7" value="Printer-ID &lt;br&gt;== 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="209" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-11" target="FOyr9okT2E-jsis5YIGN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-16" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-11" target="FOyr9okT2E-jsis5YIGN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-11" value="Basket finalized?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="209" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-13" value="reprint of sales document triggered" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="29" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-15" target="FOyr9okT2E-jsis5YIGN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-15" value="GraphQL &#39;finalizeBasket&#39; mutation response received" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="349" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-19" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-17" target="FOyr9okT2E-jsis5YIGN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-17" target="FOyr9okT2E-jsis5YIGN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-17" value="Basket finalized?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="369" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-20" target="FOyr9okT2E-jsis5YIGN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-20" value="GraphQL &#39;finalizedBasket&#39; query response received" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="509" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-22" target="FOyr9okT2E-jsis5YIGN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-33" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-22" target="FOyr9okT2E-jsis5YIGN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-22" value="Is response an error response?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="519" y="640" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-27" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-25" target="FOyr9okT2E-jsis5YIGN-3">
+          <mxGeometry x="-0.9231" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-25" target="FOyr9okT2E-jsis5YIGN-29">
+          <mxGeometry x="-0.8957" relative="1" as="geometry">
+            <mxPoint x="389" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-25" value="Is Basket already finalized?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="699" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-29" target="FOyr9okT2E-jsis5YIGN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-29" value="Summary Page is shown with all required data (error msg included)" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="189" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-32" target="FOyr9okT2E-jsis5YIGN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-32" target="FOyr9okT2E-jsis5YIGN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-32" value="Printer-ID&lt;br&gt;== 0?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="529" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FOyr9okT2E-jsis5YIGN-1" source="FOyr9okT2E-jsis5YIGN-34" target="FOyr9okT2E-jsis5YIGN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-34" value="Data was sent back to Angular" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="349" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOyr9okT2E-jsis5YIGN-36" value="Redirect to Success Page" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="FOyr9okT2E-jsis5YIGN-1">
+          <mxGeometry x="509" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
